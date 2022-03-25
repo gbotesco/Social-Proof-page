@@ -75,7 +75,7 @@
      background-color: var(--VeryDarkMagenta);
      color: var(--White);
      border-radius: 5px;
-     padding: 40px 20px;
+     padding: 35px 20px;
      margin: 0 15px 15px 15px ;
      font-size: 15px;
         
@@ -97,4 +97,7 @@
  }
  .user-detail{
      padding-left: 20px;
+ }
+ .user-detail h2{
+     font-size: 20px;
  }
