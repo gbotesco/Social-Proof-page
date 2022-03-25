@@ -28,7 +28,8 @@
   .heading-note h1{
     color: var(--VeryDarkMagenta);
     width: 300px;
-    font-family: 'spartan';
+    font-family: 'spartan'sans-serif;
+    font-size: 800;
     margin-bottom: 15px;
   }
   .heading-note p{
@@ -37,7 +38,7 @@
   }
   .rate span{
       padding-left: 10px;
-      font-weight: 800;
+      font-weight: 700;
   }
   .rate:nth-last-child(1){
      display: flex;
