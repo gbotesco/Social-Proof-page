@@ -1,0 +1,44 @@
+ @media only screen and (max-width: 376px ){
+    body{
+        background-image: url(/images/bg-pattern-top-mobile.svg),url(/images/bg-pattern-bottom-mobile.svg);
+        background-repeat: no-repeat;
+      
+      }  
+    .container{
+        margin: 40px auto;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .heading-note h1{
+          justify-items: center;
+          text-align: center;
+          padding-bottom: 20px;
+          margin: 0 auto;
+      }
+      .heading-note p{
+          width: 300px;
+          justify-items: center;
+          text-align:center;
+          margin: 0 auto;
+      }
+      .ratings .rate{
+            margin: 30px 20px;
+            flex-direction: column;
+            align-items: center;
+      }
+      span{
+          padding-top: 10px;
+      }
+      .users-testimony{
+          flex-direction: column;
+          margin: 0 20px;
+          justify-content: space-between;
+          padding: 0 auto;
+      }
+      .user{
+          margin-bottom: 30px;
+          margin-left: 0;
+          padding: 20px auto;
+      }
+      
+  }

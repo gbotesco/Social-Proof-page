@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+:root{
+    /*Primary*/  
+  --VeryDarkMagenta: hsl(300, 43%, 22%);
+  --SoftPink: hsl(333, 80%, 67%);
+  
+  /*Neutral*/
+  
+  --DarkGrayishMagenta: hsl(303, 10%, 53%);
+  --LightGrayishMagenta: hsl(300, 24%, 96%);
+  --White: hsl(0, 0%, 100%);
+  }
+  body{
+      background-image: url(/images/bg-pattern-top-desktop.svg),url(/images/bg-pattern-bottom-desktop.svg);
+      background-repeat: no-repeat;
+    
+    }     
+  .container{
+      display: flex;
+      justify-content: space-between;
+      margin: 100px;
+  }
+  .heading-note h1{
+    color: var(--VeryDarkMagenta);
+    width: 300px;
+    font-family: 'spartan';
+    margin-bottom: 15px;
+  }
+  .heading-note p{
+    width: 500px;
+    color: var(--DarkGrayishMagenta);
+  }
+  .rate span{
+      padding-left: 10px;
+      font-weight: 800;
+  }
+  .rate:nth-last-child(1){
+     display: flex;
+     background-color: var(--LightGrayishMagenta);
+     border-radius: 5px;
+     padding: 15px 20px; 
+     margin-bottom: 20px;
+     margin-left: 100px;
+  }
+  .rate:nth-last-child(2){
+    display: flex;
+    background-color: var(--LightGrayishMagenta);
+    border-radius: 5px;
+    padding: 15px 20px; 
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px; 
+  }
+  .rate:nth-last-child(3){
+    display: flex;
+    background-color: var(--LightGrayishMagenta);
+    border-radius: 5px;
+    padding: 15px 15px; 
+    margin-bottom: 20px;
+    margin-right: 150px;
+
+  }
+  .users-testimony{
+      display: flex;
+      margin: 0 100px;
+      justify-content: space-around;
+      
+}
+.user{
+     background-color: var(--VeryDarkMagenta);
+     color: var(--White);
+     border-radius: 5px;
+     padding: 40px 20px;
+     margin: 0 15px 15px 15px ;
+     font-size: 15px;
+        
+}
+
+ .user-id{
+     display: flex;
+     padding: 15px;
+     margin-bottom: 10px;
+     align-items: center;
+    
+ }
+ .user-id img{
+     width: 50px;
+     border-radius: 100px; 
+ }
+ .user-detail span{
+     color: var(--SoftPink);
+ }
+ .user-detail{
+     padding-left: 20px;
+ }
