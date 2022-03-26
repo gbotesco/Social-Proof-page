@@ -23,7 +23,7 @@
   .container{
       display: flex;
       justify-content: space-between;
-      margin: 100px;
+      margin: 80px;
   }
   .heading-note h1{
     color: var(--VeryDarkMagenta);
@@ -68,19 +68,41 @@
   }
   .users-testimony{
       display: flex;
-      margin: 0 100px;
+      margin: 0 80px;
       justify-content: space-around;
       
 }
-.user{
-     background-color: var(--VeryDarkMagenta);
+
+.user:nth-last-child(1){
+  position: relative;
+  top: 20px;
+  background-color: var(--VeryDarkMagenta);
      color: var(--White);
      border-radius: 5px;
      padding: 35px 20px;
      margin: 0 15px 15px 15px ;
      font-size: 15px;
-        
 }
+.user:nth-last-child(2){
+  position: relative;
+  background-color: var(--VeryDarkMagenta);
+  color: var(--White);
+  border-radius: 5px;
+  padding: 35px 20px;
+  margin: 0 15px 15px 15px ;
+  font-size: 15px;
+}
+.user:nth-last-child(3){
+  position: relative;
+  bottom: 20px;
+  background-color: var(--VeryDarkMagenta);
+  color: var(--White);
+  border-radius: 5px;
+  padding: 35px 20px;
+  margin: 0 15px 15px 15px ;
+  font-size: 15px;
+}
+
 
  .user-id{
      display: flex;

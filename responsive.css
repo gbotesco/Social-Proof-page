@@ -31,7 +31,7 @@
       }
       .users-testimony{
           flex-direction: column;
-          margin: 0 20px;
+          margin: 10px 20px;
           justify-content: space-between;
           padding: 0 auto;
       }
